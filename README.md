@@ -3,6 +3,11 @@
 A [Yazi](https://github.com/sxyazi/yazi) plugin to show a confirmation popup when
 opening a large number of files.
 
+Have you ever been selecting files, and gone to open one without thinking,
+only to end up with about 100 windows popping up at once?
+
+I have. One too many times. This is meant to prevent that.
+
 ## Installation
 
 Install with `ya`:
@@ -16,7 +21,7 @@ ya pkg add walldmtd/confirm-open
 Add this to your `keymap.toml`:
 
 ```toml
-{ on = "o", run = "plugin confirm-open", desc = "Open selected files"}
+{ on = "o", run = "plugin confirm-open", desc = "Open selected files"},
 { on = "<Enter>", run = "plugin confirm-open", desc = "Open selected files"}
 ```
 
