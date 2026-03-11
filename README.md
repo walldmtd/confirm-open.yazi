@@ -3,6 +3,8 @@
 A [Yazi](https://github.com/sxyazi/yazi) plugin to show a confirmation popup when
 opening a large number of files.
 
+![preview.png](assets/preview.png)
+
 Have you ever been selecting files, and gone to open one without thinking,
 only to end up with about 100 windows popping up at once?
 
