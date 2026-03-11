@@ -23,8 +23,10 @@ ya pkg add walldmtd/confirm-open
 Add this to your `keymap.toml`:
 
 ```toml
-{ on = "o", run = "plugin confirm-open", desc = "Open selected files"},
-{ on = "<Enter>", run = "plugin confirm-open", desc = "Open selected files"}
+prepend_keymap = [
+    { on = "o", run = "plugin confirm-open", desc = "Open selected files"},
+    { on = "<Enter>", run = "plugin confirm-open", desc = "Open selected files"}
+]
 ```
 
 By default, the popup will show when opening at least 10 files at once.
