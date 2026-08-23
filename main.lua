@@ -5,7 +5,6 @@ local THRESHOLD_DEFAULT = 10
 local get_context = ya.sync(function(state)
 	return {
 		threshold = state.threshold,
-		is_visual = cx.active.mode.is_visual,
 		num_selected = #cx.active.selected,
 	}
 end)
